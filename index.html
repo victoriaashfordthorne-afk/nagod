@@ -10,28 +10,31 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="h-vh border-2 flex justify-center items-center m-24  ">
-  <div class=" border-2 flex justify-between items-center h-vh rounded-2xl ">
+<body class=" bg-gray-200 min-h-screen  flex justify-center items-center p-4 ">
+  <div class="flex w-[700px]rounded-xl shadow-2xl overflow-hidden  rounded-3xl w-full max-w-4xl flex-col md:flex-row">
     <!-- left -->
-    <div class="h-1/4"  >
-      <h1 class="flex justify-center items-center font-bold text-3xl pt-32  ">S'identifer</h1>
-      <form class="p-2 m-1  ">
-        <input type="Email" id="Email" placeholder="Email" class="border-2 m-2 p-1.5 w-3xs bg-gray-100 border-none  "><br>
-        <input type="password" id="Password" placeholder="Password" class="border-2 m-2 p-1.5 w-3xs bg-gray-100 border-none"><br>
+    <div class="w-full md:w-1/2 p-8 md:p-12 bg-white  ">
+      <h1 class="flex justify-center items-center font-bold text-3xl pt-32 mb-6 ">S'identifer</h1>
+      <form class="p-2 m-1 space-y-4 ">
+        <input type="Email" id="Email" placeholder="Email"
+          class="border focus:outline-none mb-2 p-1.5 w-full px-4 py-3  bg-gray-100 border-none  "><br>
+        <input type="password" id="Password" placeholder="Password"
+          class="w-full mb-4 px-4 py-2 border focus:outline-none bg-gray-100 border-none"><br>
       </form>
-      <p class="pl-24">Mot de passe oubiler</p>
-      <button class="btn1 border-2 rounded-4xl p-1.5 m-9 bg-orange-600 text-amber-50 w-3xs ">S'IDENTIFIER</button>
+      <p class="pl-24 text-sm text-gray-500 pt-14 cursor-pointer hover:underline ">Mot de passe oubiler</p>
+      <button class="btn1 border-2 rounded-4xl p-1.5 m-9 bg-orange-600 text-amber-50 w-3xs mb-11">S'IDENTIFIER</button>
 
     </div>
     <!-- right -->
-    <div>
-      <h2 class="flex justify-center items-center font-bold text-3xl pt-32  " >Salut I ami!</h2>
-      <p class="flex justify-center items-center pt-14">Enter vos donnees personnelles et <br>commencer votre voyage avec nous</p>
-      <button  class="btn1 border-2 rounded-4xl p-1.5 m-9  w-3xs ">S'INSCRIRER</button>
-      </div>
-      </div>
+    <div class="  bg-gradient-to- from-pink-500 to bg-pink-600 text-white w-full md:w-1/2 flex-col item-center">
+      <h2 class="flex justify-center items-center font-bold text-3xl pt-36  mt-7 md:text-4xl mb-4 ">Salut I ami!</h2>
+      <p class="flex justify-center items-center mb-6 text-sm md:text-base opacity-90">Enter vos donnees personnelles et <br>commencer votre voyage avec nous
+      </p>
+      <button class="btn1 border-2  px-8 py-3  hover:bg-white hover:text-pink-600 rounded-4xl p-3  m-9  w-3xs  ">S'INSCRIRER</button>
     </div>
   </div>
+  </div>
+  </div>
 </body>
- 
+
 </html>
